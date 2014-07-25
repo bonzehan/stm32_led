@@ -1,0 +1,9 @@
+C++ Class implementation for control LED on STM32F10x
+
+This class allows you to easily manage LED by using methods:
+ - setState(bool)
+ - tougle(void)
+ 
+There is link.ld linker script for coocox ide, becouse default script doesn't have section for c++ global constructors.
+TODO:
+ <empty>
